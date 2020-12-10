@@ -15,7 +15,7 @@ setup(
     name="janis-pipelines.dawson",
     version=version,
     description=description,
-    url="https://github.com/PMCC-BioinformaticsCore/janis-bioinformatics",
+    url="https://github.com/SebastianHollizeck/janis_dawson",
     author="Sebastian Hollizeck",
     author_email="sebastian.hollizeck@petermac.org",
     license="GNU",
@@ -24,7 +24,8 @@ setup(
     entry_points={
         "janis.extension": ["dawson=janis_dawson"],
         "janis.tools": [
-            "dawson=janis_dawson.tools",
+            # no tools yet, so nothing to import yet
+            # "dawson=janis_dawson.tools",
             "dawson_workflows=janis_dawson.workflows",
         ],
     },
