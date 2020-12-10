@@ -43,7 +43,7 @@ class Strelka2PassWorkflowCram(BioinformaticsWorkflow):
 
         The workflow will
          * run manta
-         * run strelka with manata output
+         * run strelka with manta output
          * run strelka with strelka and manta output
          * reannotate the filter column
          * output resuults
